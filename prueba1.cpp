@@ -3,7 +3,7 @@
 void guess_game(int nmin, int nmax);
 int main (int argc, char **argv)
 {
-  int NMIN = 5, NMAX = 50;
+  int NMIN = 50, NMAX = 500;
   guess_game(NMIN, NMAX);
   return 0;
 }
@@ -34,5 +34,6 @@ void guess_game(int nmin, int nmax)
   {
    std::cout << "\nBien hecho, lograste adivinar el numero que estaba pensando " << std::endl;
   }
+  //* este es el primer comentario de prueba//
 }
 
