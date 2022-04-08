@@ -3,7 +3,7 @@
 void guess_game(int nmin, int nmax);
 int main (int argc, char **argv)
 {
-  int NMIN = 50, NMAX = 500;
+  int NMIN = 500, NMAX = 5000;
   guess_game(NMIN, NMAX);
   return 0;
 }
